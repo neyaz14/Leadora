@@ -11,8 +11,8 @@
 
 ```
 project/
-├── frontend/        # React + Vite app
-├── backend/         # Express API
+├── fe/        # React + Vite app
+├── be/         # Express API
 └── README.md
 ```
 
@@ -38,109 +38,7 @@ project/
 * pnpm
 * nodemon (dev)
 
----
 
-## 🛠️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/USERNAME/REPO.git
-cd REPO
-```
-
----
-
-## 📦 Install Dependencies
-
-### Install frontend dependencies
-
-```bash
-cd frontend
-pnpm install
-```
-
-### Install backend dependencies
-
-```bash
-cd ../backend
-pnpm install
-```
-
----
-
-## 🚀 Run the Project
-
-### ▶️ Start Frontend
-
-```bash
-cd frontend
-pnpm dev
-```
-
-Frontend runs at:
-
-```
-http://localhost:5173
-```
-
----
-
-### ▶️ Start Backend
-
-```bash
-cd backend
-pnpm dev
-```
-
-Backend runs at:
-
-```
-http://localhost:5000
-```
-
----
-
-## 🌐 API Example
-
-Backend test route:
-
-```
-GET /
-```
-
-Response:
-
-```
-API running...
-```
-
----
-
-## 🔧 Environment Variables
-
-Create a `.env` file inside `backend/`:
-
-```env
-PORT=5000
-```
-
----
-
-## 📌 Scripts
-
-### Backend (`backend/package.json`)
-
-```json
-{
-  "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
-  }
-}
-```
-
----
 
 ## 🔗 Future Improvements
 
